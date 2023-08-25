@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Aug 25 09:44:01 2023
+
+@author: Lenovo
+"""
+
+62--->> https://replit.com/@codewithharry/62-Day-62-Access-Specifiers#.tutorial/01-Access_specifiers.md
+63
+64
+65--->> 
