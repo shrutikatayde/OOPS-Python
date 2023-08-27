@@ -24,4 +24,5 @@ a=Math(5)
 print(a.num)
 a.addToNum(6)
 print(a.num)
-print(add(7, 3))  #Math. , a.
+print(Math.add(7, 3))  #Math. , a.
+print(add(3, 3)) 
