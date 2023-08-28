@@ -14,9 +14,17 @@ class Employee:
         return i
     
     def __str__(self):
-        return f"Thank you {self.name} !!"
-
+        return f"Thank you {self.name} !! str"
+    
+    def __repr__(self):
+        return f"Thank you {self.name} !! repr"
+    
+    def __call__(self):
+        return f"Thanks this is call method {self.name}"
+    
 
 e1= Employee("saru")
-print(e1)
+print(str(e1))
+print(repr(e1))
+print(e1())
 

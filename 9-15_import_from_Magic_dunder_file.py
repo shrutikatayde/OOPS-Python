@@ -8,4 +8,7 @@ Created on Sun Aug 27 15:47:40 2023
 from magic_dunder_methods import Employee
 
 e= Employee("shruu")
-print(e)
+print(str(e))
+print(repr(e))
+
+print(e())
