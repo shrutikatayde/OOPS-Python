@@ -19,7 +19,7 @@ class Library:
     def showInfo(self):
         print(f"\nThe Library has {self.noBooks} books. The books are :\n\n Book Name \t\t Author Name\n ----------------------------- ")
         for book in self.books:
-            print(" ",book,"|\t", self.books[book])
+            print(" ",book,"\t\t |\t\t", self.books[book])
         
 l1 = Library()
 t=int(input("How many you want to add at a time: "))

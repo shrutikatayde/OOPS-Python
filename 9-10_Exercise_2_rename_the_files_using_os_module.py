@@ -24,8 +24,9 @@ def clutter(file_ext):
          if file.endswith(file_ext):
             os.rename(f"files/{file}",f"files/{i}{file_ext}")
             i += 1
+         i+=1
 
-if (not os.path.exists("files")):
+'''if (not os.path.exists("files")):
     os.mkdir("files")
 for i in range(0, 3):
     if (not os.path.exists(f"files/file{i+1}.txt")):
@@ -33,6 +34,6 @@ for i in range(0, 3):
     if (not os.path.exists(f"files/file{i + 1}.png")):
         os.mkdir(f"files/file2{i + 1}.png")
     if (not os.path.exists(f"files/file{i + 1}.jpeg")):
-            os.mkdir(f"files/file3{i + 1}.jpeg")
+            os.mkdir(f"files/file3{i + 1}.jpeg")'''
 a = input("Enter any one of the file formats given below to edit the file names numerically:\nA].png\t\t B].txt\t\tC].jpeg\n")
 clutter(a)
