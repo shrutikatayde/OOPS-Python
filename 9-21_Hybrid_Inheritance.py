@@ -13,7 +13,7 @@ class Engineering:
 
 
 class Students(Engineering):
-    def __init__(self, name, year=3, branch="MEHC"):
+    def __init__(self, name, year=3, branch="Mechanical"):
         super().__init__(
             year, branch
         )  # Call the parent class constructor directly with experience=0
@@ -25,7 +25,7 @@ class Students(Engineering):
 
 
 class Faculty(Engineering):
-    def __init__(self, t_name, year=7, branch="fghf", experience=10):
+    def __init__(self, t_name, year=7, branch="CSE", experience=10):
         super().__init__(
             year, branch, experience
         )  # Call the parent class constructor directly
